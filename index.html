@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eugenio Noyola Leon ( Keno )</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet prefetch" href="css/mainV2.css">
+  <!-- CSS -->
+
+
+  <script type="text/javascript">
+  function sort(item) {
+    if (item == 'all') {
+      var elements = document.getElementsByClassName('sort');
+      for (var i=0, im=elements.length; im>i; i++) {
+          elements[i].style.display = 'initial';
+      }} else {
+        var elements = document.getElementsByClassName('sort');
+        for (var i=0, im=elements.length; im>i; i++) {
+            elements[i].style.display = 'none';
+        }
+        var showElements = document.getElementsByClassName(item);
+        for (var i=0, im=showElements.length; im>i; i++) {
+            showElements[i].style.display = 'initial';
+        }
+      }
+    }
+
+  </script>
+
+
+
+  <style type="text/css">
+    body {
+      background: #d6d6d6 !important;
+    }
+
+    .list-group-item {
+      background-color: #d6d6d6 !important;
+    }
+
+    .sorter{
+      color: #787878;
+      background-color: #cad3db;
+      border-color: #787878;
+    }
+
+    .resume a {    
+    color: #3385cc; /* darker baby blue */
+    text-decoration: none;
+    transition: color 0.2s ease;
+    }
+
+    .resume a:hover {
+      color: #66b2ff; /* baby blue */
+      text-decoration: underline;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <br>
+  <br>
+  <div class="container">
+    <br>
+    <div class="d-flex justify-content-center">
+      <h2>Eugenio Noyola Leon ( Keno )</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+      <!-- Contact: &nbsp;<b><i><a href="https://twitter.com/_k3no" class="link-dark" target="_blank" style="text-decoration: none">@_k3no</a></i></b> -->
+                  
+      <!-- GITHUB -->
+      <a href="https://github.com/KenoLeon" class="link-dark" target="_blank" style="text-decoration: none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+      <!-- GITHUB -->
+      
+      &nbsp;&nbsp;
+      
+      <!-- LINKEDIN -->
+      <a href="https://www.linkedin.com/in/kenoleon/" class="link-dark" target="_blank" style="text-decoration: none">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+      </a>
+      <!-- LINKEDIN -->
+      &nbsp;&nbsp;
+      <!-- MEDIUM -->
+      <a href="https://medium.com/@k3no" class="link-dark" target="_blank" style="text-decoration: none">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16">
+        <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8m4.95 0c0 2.34-1.01 4.236-2.256 4.236S9.463 10.339 9.463 8c0-2.34 1.01-4.236 2.256-4.236S13.975 5.661 13.975 8M16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795"/>
+      </svg>
+      </a>
+      <!-- MEDIUM -->
+      &nbsp;&nbsp;
+      <!-- TWITTER-X -->
+      <a href="https://twitter.com/_k3no" class="link-dark" target="_blank" style="text-decoration: none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      <!-- TWITTER-X -->  
+      &nbsp;&nbsp;
+
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/instakenogram/" class="link-dark" target="_blank" style="text-decoration: none">  
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>        
+      </svg>
+      </a>
+      <!-- INSTAGRAM -->
+      &nbsp;&nbsp;
+      <!-- BLUESKY -->
+      <a href="https://bsky.app/profile/k3no.bsky.social" class="link-dark" target="_blank" style="text-decoration: none">      
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565C.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479c.815 2.736 3.713 3.66 6.383 3.364q.204-.03.415-.056q-.207.033-.415.056c-3.912.58-7.387 2.005-2.83 7.078c5.013 5.19 6.87-1.113 7.823-4.308c.953 3.195 2.05 9.271 7.733 4.308c4.267-4.308 1.172-6.498-2.74-7.078a9 9 0 0 1-.415-.056q.21.026.415.056c2.67.297 5.568-.628 6.383-3.364c.246-.828.624-5.79.624-6.478c0-.69-.139-1.861-.902-2.206c-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"/></svg>
+    </a>
+    </div>
+    </div>
+
+    <br>
+    <div class="container">
+      <h3>About:</h3>
+      <b>AI/Software Researcher & Developer</b> · Writer · Python & Front-End Developer · UI/UX · Solidity · Quantitative Finance · Data Science · Machine Learning      
+      <div style="height: 6px;"></div>
+      <div class="resume">
+      <strong>Resume:</strong>      
+      <a href="https://www.k3no.com/colateral/Eugenio_Leon_AI_Researcher_Resume.txt" target="_blank">Plain Text</a> |
+      <a href="https://www.k3no.com/colateral/Eugenio_Leon_AI_Researcher_Resume.pdf" target="_blank">PDF</a>  
+      </div>
+      <br>
+    </div>
+
+
+    <div class="container">
+      <h3>Books:</h3>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.amazon.com/dp/B07JR3KNMX" class="list-group-item link-dark" target="_blank"><b>Conscious
+            Artificial Intelligence: Part 1. Foundations</b></a>
+        <a href="https://www.amazon.com/dp/1973442558" class="list-group-item link-dark" target="_blank"><b>Ethereum,
+            tokens & smart contracts: Notes on getting started.</b></a>
+        <a href="https://www.amazon.com/dp/B075PGHX4M" class="list-group-item link-dark" target="_blank"><b>Making a
+            simple Neural Network: An Illustrated guide.</b></a>
+
+      </ul>
+      <br>
+    </div>
+
+
+    <div class="container">
+      <h3>Articles/Posts: </h3>
+
+      <!-- SORTER FILTER -->
+      <div class="dropdown d-flex justify-content-end" style="margin-top:-40px">
+        <button class="btn btn-secondary dropdown-toggle btn-sm sorter" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Show / Filter
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#" onclick="sort('all');">Show all</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortAI');">Artificial Intelligence/Neuroscience</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortPython');">Python</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortCrypto');">Blockchain/Crypto</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortDataScience');">DataScience/Quant</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortFED');">Front End Development</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortDev');">Software Development/Tech</a></li>
+          <li><a class="dropdown-item" href="#" onclick="sort('sortOTHER');">Editorial/Other</a></li>
+        </ul>
+      </div>
+      <br>
+
+      <!-- SORTING CATEGORIES -->
+      <!-- Python  sort sortPython-->
+      <!-- AI/Neuroscience  sort sortAI-->
+      <!-- Blockchain/Crypto  sort sortCrypto-->
+      <!-- Datascience/Quant  sort sortDataScience-->
+      <!-- Software Development/Tech sort sortDev-->
+      <!-- Front End Development sort sortFED-->
+      <!-- Other / Editorial sort sortOTHER-->
+
+
+      <ul class="list-group list-group-flush">
+        <!-- <a href="" class="list-group-item link-dark" target="_blank"></a> -->
+        <!-- <a href="" class="list-group-item link-dark" target="_blank"></a> -->
+         <a href="https://medium.com/@k3no/embodied-speech-for-ais-2766508a4a47" class="list-group-item link-dark" target="_blank">Embodied Speech for AIs</a>
+         <a href="https://k3no.medium.com/embodied-llms-c8866619f9a9" class="list-group-item link-dark sort sortAI" target="_blank">Embodied LLMs.</a>
+         <a href="https://medium.com/@k3no/organizing-your-ai-generated-code-261c35584f1b" class="list-group-item link-dark Tech sort sortDev sortAI" target="_blank">Organizing Your AI-Generated Code</a>
+         <a href="https://k3no.medium.com/be-kind-to-all-versions-of-you-c71deaa6366f" class="list-group-item link-dark sort sortOTHER" target="_blank">Be kind to all versions of you.</a>
+        
+        <a href="https://medium.com/@k3no/human-labor-ai-and-robotics-35af4712d3f4" class="list-group-item link-dark sort sortAI" target="_blank">Human Labor, AI and Robotics</a>
+        <a href="https://medium.com/@k3no/dealing-with-noise-while-renting-cc314c0af7a3" class="list-group-item link-dark sort sortOTHER" target="_blank">Dealing with noise while renting</a>
+        <a href="https://medium.com/@k3no/more-llm-ai-tooling-e6bb1612f840" class="list-group-item link-dark sort sortAI" target="_blank">More LLM/AI Tooling</a>
+         <a href="https://medium.com/@k3no/illness-and-the-dysfunctional-family-7894682fdf08" class="list-group-item link-dark sort sortOTHER" target="_blank">Illness and the dysfunctional family</a>
+         <a href="https://medium.com/@k3no/reasoning-e29d1fbe5d37" class="list-group-item link-dark sort sortAI" target="_blank">Reasoning, can AIs Reason ?</a>
+         <a href="https://medium.com/@k3no/ranking-llms-and-other-ais-83f8f9cd5d24" class="list-group-item link-dark sort sortAI" target="_blank">Ranking and testing LLMs and other AIs</a>
+         <a href="https://k3no.medium.com/langchain-d6d348f67ee1" class="list-group-item link-dark sort sortAI" target="_blank">LangChain, What is it ?</a>
+        <a href="https://k3no.medium.com/giving-llms-episodic-memories-059773b9174b" class="list-group-item link-dark sort sortAI" target="_blank">Giving LLMs Episodic Memories</a>
+        <a href="https://k3no.medium.com/new-to-hugging-face-bbccb1190941" class="list-group-item link-dark sort sortAI" target="_blank">New to Hugging Face ?</a>
+        <a href="https://k3no.medium.com/math-for-experimental-ais-and-neural-networks-30072128c1ef" class="list-group-item link-dark sort sortAI" target="_blank">Math for Experimental AIs and Neural Networks</a>
+        <a href="https://k3no.medium.com/a-beginners-guide-to-latex-for-mathematical-typesetting-3c5f1931a573" class="list-group-item link-dark sort sortDataScience sortDev" target="_blank">A Beginner’s Guide to LaTeX for Mathematical Typesetting</a>
+        <a href="https://k3no.medium.com/free-will-and-ais-f9e2cf335343" class="list-group-item link-dark sort sortAI" target="_blank">Free Will and AIs</a>
+        <a href="https://medium.com/@k3no/how-evil-are-you-e015cb354f17" class="list-group-item link-dark sort sortOTHER" target="_blank">How Evil Are You ?</a>
+        <a href="https://medium.com/@k3no/brain-blueprints-attention-29e3411d1e82" class="list-group-item link-dark sort sortAI" target="_blank">Brain Blueprints: Attention</a>
+        <a href="https://medium.com/@k3no/theories-and-definitions-on-consciousness-458e3b156228" class="list-group-item link-dark sort sortAI" target="_blank">Theories and Definitions on Consciousness</a>
+        <a href="https://medium.com/@k3no/deep-learning-with-3d-virtual-environments-8a592703244f" class="list-group-item link-dark sort sortAI" target="_blank">Deep Learning with 3D Virtual Environments</a>
+        <a href="https://k3no.medium.com/of-latent-spaces-ais-and-consciousness-d1950a6f53a0" class="list-group-item link-dark sort sortAI" target="_blank">Of Latent Spaces, AIs and Consciousness.
+        </a>
+        <a href="https://k3no.medium.com/ui-ux-for-llms-11048a64a4db" class="list-group-item link-dark sort sortAI sortDev sortFED" target="_blank">UI/UX For LLMs</a>
+        <a href="https://k3no.medium.com/book-review-deep-learning-with-python-17250b8cddc5" class="list-group-item link-dark sort sortAI sortDev sortFED" target="_blank">Book Review: Deep Learning with Python.</a>
+        <a href="https://medium.com/@k3no/ar-in-the-browser-d4c7ddb707dd" class="list-group-item link-dark sort sortAI sortDev sortFED" target="_blank">AR in the browser with Mediapipe and ThreeJS</a>
+        <a href="https://medium.com/@k3no/machine-subjectivity-17bc4e97df1e" class="list-group-item link-dark sort sortAI" target="_blank">AI - Machine Subjectivity</a>
+        <a href="https://medium.com/@k3no/making-2d-art-in-javascript-5baa1506da22" class="list-group-item link-dark sort sortDev sortFED" target="_blank">Making 2D art in Javascript</a>
+        <a href="https://k3no.medium.com/the-joy-and-sorrow-of-coding-with-chatgpt-c444dc602393" class="list-group-item link-dark sort sortDev" target="_blank">The Joy and Sorrow of Coding with ChatGPT</a>
+        <a href="https://k3no.medium.com/backtesting-101-882356c37a11" class="list-group-item link-dark sort sortDataScience" target="_blank">Backtesting 101</a>
+        <a href="https://medium.com/@k3no/search-in-ai-3d-environments-ad2b0b7c4de1" class="list-group-item link-dark sort sortAI" target="_blank">Search in AI 3D Environments</a>
+        <a href="https://medium.com/@k3no/3d-virtual-environments-for-ais-e02de5c4ef1d" class="list-group-item link-dark sort sortAI" target="_blank">3D Virtual Environments for AIs</a>
+        <a href="https://medium.com/@k3no/earthquake-data-science-531c87acc5ca" class="list-group-item link-dark sort sortDataScience" target="_blank">Earthquake Data Science</a>
+        <a href="https://k3no.medium.com/chatgpts-python-api-overview-e4120cc75ec4" class="list-group-item link-dark sort sortPython sortAI" target="_blank">ChatGPTs Python API Overview</a>
+        <a href="https://medium.com/@k3no/a-brief-history-of-financial-crises-f1e1e8b20827" class="list-group-item link-dark sort sortDataScience sortOTHER" target="_blank">A Brief History of Financial Crises</a>
+        <a href="https://k3no.medium.com/brain-blueprints-motor-control-b17ea89eb92e" class="list-group-item link-dark sort sortAI" target="_blank">Brain Blueprints: Motor Control</a>
+        <a href="https://k3no.medium.com/brain-blueprints-sensory-perception-ee206133aba" class="list-group-item link-dark sort sortAI" target="_blank">Brain Blueprints: Sensory Perception</a>
+        <a href="https://k3no.medium.com/brodmann-areas-4894e279bb84" class="list-group-item link-dark sort sortAI" target="_blank">Brodmann Areas
+</a>
+        <a href="https://k3no.medium.com/the-brain-blueprints-project-938c82af1ba1?sk=3cde47465f525c56e384ed0e3626f7e5" class="list-group-item link-dark sort sortAI" target="_blank">The Brain Blueprints Project-Introduction</a>
+        <a href="https://k3no.medium.com/chatgpt-after-the-hype-3e1c45b8d848" class="list-group-item link-dark sort sortAI" target="_blank">ChatGPT, after the hype.</a>
+        <a href="https://medium.com/@k3no/encoding-for-machine-learning-and-ais-c8b193f32b29" class="list-group-item link-dark sort sortAI sortDataScience" target="_blank">Encoding for Machine Learning and AIs</a>
+        <a href="https://medium.com/@k3no/a-map-of-common-ai-tasks-df5f7fbee552" class="list-group-item link-dark sort sortAI sortDataScience" target="_blank">A map of common AI tasks.</a>
+        <a href="https://medium.com/@k3no/giving-ais-emotions-b64d5e04cb9d" class="list-group-item link-dark sort sortAI" target="_blank">Giving AIs Emotions</a>
+        <a href="https://k3no.medium.com/a-guide-to-artificial-neural-network-visualizations-d5ea7a1cc9c4" class="list-group-item link-dark sort sortAI" target="_blank">A Guide to Artificial Neural Network Visualizations</a>
+        <a href="https://k3no.medium.com/intelligent-machinery-63d41a131c15" class="list-group-item link-dark sort sortAI" target="_blank">Intelligent Machinery (Turing) </a>
+        <a href="https://k3no.medium.com/abstraction-de6cfbf766b0" class="list-group-item link-dark sort sortAI" target="_blank">Abstraction</a>
+        <a href="https://k3no.medium.com/a-higher-intelligence-e6a920b767d3" class="list-group-item link-dark sort sortAI" target="_blank">A Higher Intelligence</a>
+        <a href="https://k3no.medium.com/associations-and-intelligence-for-ais-e3fd28125d02" class="list-group-item link-dark sort sortAI" target="_blank">Associations and Intelligence for AIs
+</a>
+        <a href="https://k3no.medium.com/the-chinese-room-experiment-2c0d63848f05" class="list-group-item link-dark sort sortAI" target="_blank">The Chinese Room Experiment</a>
+        <a href="https://k3no.medium.com/ai-image-generators-for-design-f4b427249dfe" class="list-group-item link-dark sort sortAI sortOTHER" target="_blank">AI Image Generators for Product Design</a>
+        <a href="https://k3no.medium.com/how-to-make-a-sentient-toaster-e68cde388996" class="list-group-item link-dark sort sortAI" target="_blank">How to make a Sentient Toaster</a>
+        <a href="https://k3no.medium.com/the-development-of-consciousness-117d21dce85f" class="list-group-item link-dark sort sortAI" target="_blank">The Development of Consciousness through life.</a>
+        <a href="https://k3no.medium.com/covert-speech-consciousness-and-ais-f579a3bfb78a" class="list-group-item link-dark sort sortAI" target="_blank">Covert Speech, Consciousness and AIs</a>
+        <a href="https://k3no.medium.com/spiking-neural-networks-97414070a4a7" class="list-group-item link-dark sort sortAI" target="_blank">Spiking Neural Networks, a short overview.</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-adb43ac0a8d2" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs: System 07 Odds & Ends</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-72e37099a747" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs: System 06 Speech and Language
+</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-16f3e7b8e46f" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs: System 05 The Prefrontal Cortex</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-ee7cff1b7b05" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs: System 04 Attention</a>
+        <a href="https://k3no.medium.com/graphs-and-networks-in-python-1a557987e10a" class="list-group-item link-dark sort sortDataScience sortPython" target="_blank">Graphs and Networks in Python with networkx</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-f0c89668a026" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs:System 03 Memory & Plasticity.
+</a>
+        <a href="https://k3no.medium.com/quick-guide-on-working-with-data-apis-in-python-eee714a76cee" class="list-group-item link-dark sort sortPython sortDataScience" target="_blank">Quick guide on working with Data APIs in Python</a>
+        <a href="https://k3no.medium.com/python-in-the-browser-with-pyscript-43aa479395dd" class="list-group-item link-dark sort sortPython" target="_blank">Python in the browser with Pyscript</a>
+        <a href="https://k3no.medium.com/build-a-wifi-scanner-with-python-71cdbe331be3" class="list-group-item link-dark sort sortPython" target="_blank">Build a wifi scanner with Python</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-17a860315ddb" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs:
+System 02 Basic Movement</a>
+        <a href="https://k3no.medium.com/javascript-refresher-for-web3-4eef2ee56bf9" class="list-group-item link-dark sort sortCrypto" target="_blank">Javascript refresher for web3</a>
+        <a href="https://k3no.medium.com/hardhat-for-solidity-development-b11e9f174f3a" class="list-group-item link-dark sort sortCrypto" target="_blank">Hardhat for Solidity development</a>
+        <a href="https://k3no.medium.com/signing-messages-in-ethereum-5517040c2ff1" class="list-group-item link-dark sort sortCrypto" target="_blank">Signing messages in Ethereum</a>
+        <a href="https://k3no.medium.com/a-bit-more-about-numerai-15ca7320ee11" class="list-group-item link-dark sort sortDataScience" target="_blank">A bit more about Numerai</a>
+        <a href="https://k3no.medium.com/how-conscious-are-artificial-neural-networks-31872f67e445" class="list-group-item link-dark sort sortAI" target="_blank">How “Conscious” are Artificial Neural Networks ?</a>
+        <a href="https://k3no.medium.com/intro-to-metamask-for-dapps-44eec902fc84" class="list-group-item link-dark sort sortCrypto" target="_blank">Intro to Metamask for Dapps</a>
+        <a href="https://k3no.medium.com/functional-brain-anatomy-for-ais-3b6626a2b93" class="list-group-item link-dark sort sortAI" target="_blank">Functional Brain Anatomy for AIs:A systems approach: System 01 Basic Behavior</a>
+        <a href="https://k3no.medium.com/the-state-of-blockchain-storage-dbccb739e3b5" class="list-group-item link-dark sort sortCrypto" target="_blank">The State of Blockchain Storage</a>
+        <a href="https://k3no.medium.com/jumping-back-into-solidity-and-ethereum-development-3c9ec6639cc7" class="list-group-item link-dark sort sortCrypto" target="_blank">Jumping back into Solidity and Ethereum Development</a>
+        <a href="https://k3no.medium.com/a-quick-look-at-brownie-a56bea07d84e" class="list-group-item link-dark sort sortCrypto" target="_blank">A quick look at Brownie</a>
+        <a href="https://k3no.medium.com/dont-forget-the-money-44a45f1e1d71" class="list-group-item link-dark sort sortOTHER" target="_blank">Don’t forget the money !</a>
+        <a href="https://k3no.medium.com/context-and-ai-470e0512190d" class="list-group-item link-dark sort sortAI" target="_blank">Context and AI</a>
+        <a href="https://k3no.medium.com/3-early-projects-for-the-metaverse-b98e75877ca6" class="list-group-item link-dark sort sortDev" target="_blank">3 Early projects for the Metaverse</a>
+        <a href="https://k3no.medium.com/making-a-toy-hedge-fund-7b03f96512ba" class="list-group-item link-dark sort sortDataScience" target="_blank">Making a Toy Hedge Fund.</a>
+        <a href="https://k3no.medium.com/ai-object-detection-the-hard-way-609fef9118" class="list-group-item link-dark sort sortAI" target="_blank">AI Object Detection the Hard Way</a>
+        <a href="https://k3no.medium.com/ai-working-memory-2712cb066b25" class="list-group-item link-dark sort sortAI" target="_blank">AI Working Memory</a>
+        <a href="https://k3no.medium.com/how-to-dry-your-python-code-639a17c65207" class="list-group-item link-dark sort sortPython" target="_blank">How to DRY your Python code</a>
+        <a href="https://k3no.medium.com/taming-time-in-python-65a625ade93f" class="list-group-item link-dark sort sortPython" target="_blank">Taming Time in Python</a>
+        <a href="https://k3no.medium.com/nft-madness-78be67aad587" class="list-group-item link-dark sort sortCrypto" target="_blank">NFT Madness !</a>
+        <a href="https://k3no.medium.com/the-basics-of-using-python-in-blender-46831fd094e6" class="list-group-item link-dark sort sortPython" target="_blank">The basics of using Python in Blender</a>
+        <a href="https://k3no.medium.com/fibonacci-sequence-60c0409ba7f5" class="list-group-item link-dark sort sortDataScience" target="_blank">Fibonacci sequence</a>
+        <a href="https://k3no.medium.com/recreating-biological-short-term-memory-c8e17d9d3dd0" class="list-group-item link-dark sort sortAI" target="_blank">Recreating Biological Short Term Memory</a>
+        <a href="https://k3no.medium.com/histograms-1c855159631f" class="list-group-item link-dark sort sortDataScience" target="_blank">Histograms</a>
+        <a href="https://k3no.medium.com/uis-in-python-with-dearpygui-9fad0e89f56c" class="list-group-item link-dark sort sortPython" target="_blank">UIs in Python with DearPyGUI</a>
+        <a href="https://k3no.medium.com/the-early-consciousness-of-sound-5208adea2670" class="list-group-item link-dark sort sortAI" target="_blank">The early consciousness of sound</a>
+        <a href="https://k3no.medium.com/a-first-look-at-github-copilot-a5fdec17e234" class="list-group-item link-dark sort sortDev" target="_blank">A first look at Github CoPilot</a>
+        <a href="https://k3no.medium.com/command-line-uis-in-python-80af755aa27d" class="list-group-item link-dark sort sortPython" target="_blank">Command Line UI’s in Python</a>
+        <a href="https://k3no.medium.com/fourier-transform-for-audio-in-python-1840b13426a" class="list-group-item link-dark sort sortPython" target="_blank">Fourier Transform for Audio in Python</a>
+        <a href="https://k3no.medium.com/real-time-audio-wave-visualization-in-python-b1c5b96e2d39" class="list-group-item link-dark sort sortPython" target="_blank">Real Time Audio Wave Visualization in Python.</a>
+        <a href="https://k3no.medium.com/custom-made-plots-in-python-with-pysimplegui-9f7618fab8d5" class="list-group-item link-dark sort sortPython" target="_blank">Custom made plots in Python with PySimpleGUI</a>
+        <a href="https://towardsdatascience.com/integrating-pyplot-and-pysimplegui-b68be606b960"
+          class="list-group-item link-dark sort sortPython" target="_blank">Integrating PyPlot and PySimpleGUI</a>
+        <a href="https://k3no.medium.com/integrating-pyaudio-pysimplegui-5fa342b1e113" class="list-group-item link-dark sort sortPython"
+          target="_blank">Integrating PyAudio & PySimpleGUI</a>
+        <a href="https://k3no.medium.com/build-a-maze-with-python-920ac2266fe7" class="list-group-item link-dark sort sortPython"
+          target="_blank">Build a maze with Python</a>
+        <a href="https://k3no.medium.com/engrams-43d80ca3046d" class="list-group-item link-dark sort sortAI"
+          target="_blank">Engrams</a>
+        <a href="https://k3no.medium.com/neuroscience-bibliography-a11dc3ae23aa" class="list-group-item link-dark sort sortAI"
+          target="_blank">Neuroscience Bibliography</a>
+        <a href="https://levelup.gitconnected.com/uis-in-python-with-pysimplegui-e5cd8ea275e8"
+          class="list-group-item link-dark sort sortPython" target="_blank">UIs in Python with PySimpleGUI</a>
+        <a href="https://k3no.medium.com/isometric-grids-in-python-40c0fad54552" class="list-group-item link-dark sort sortPython"
+          target="_blank">Isometric Grids in Python</a>
+        <a href="https://k3no.medium.com/5-reasons-you-should-check-the-numerai-competitions-fa555938119"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">5 reasons you should check the Numerai Competitions.</a>
+        <a href="https://betterprogramming.pub/making-grids-in-python-7cf62c95f413" class="list-group-item link-dark sort sortPython"
+          target="_blank">Making Grids in Python</a>
+        <a href="https://medium.com/swlh/the-problems-with-artificial-general-intelligence-c9de15148c66"
+          class="list-group-item link-dark sort sortAI" target="_blank">The Problems With Artificial General Intelligence</a>
+        <a href="https://medium.com/swlh/sparse-hierarchical-distributed-invariant-representations-ff34b52bea4f"
+          class="list-group-item link-dark sort sortAI" target="_blank">Sparse Hierarchical Distributed Invariant
+          Representations</a>
+        <a href="https://medium.com/the-innovation/the-neuralink-pigs-d5ea5e8c21d3" class="list-group-item link-dark sort sortAI"
+          target="_blank">The Neuralink Pigs</a>
+        <a href="https://medium.com/an-idea/the-many-things-ai-needs-a3f546ee899b" class="list-group-item link-dark sort sortAI"
+          target="_blank">The many things AI needs…</a>
+        <a href="https://k3no.medium.com/python-numpy-aac458ea6134" class="list-group-item link-dark sort sortPython"
+          target="_blank">Python Numpy</a>
+        <a href="https://k3no.medium.com/opencv-python-8ea1d2fd46b9" class="list-group-item link-dark sort sortPython"
+          target="_blank">OpenCV & Python</a>
+        <a href="https://k3no.medium.com/practical-keras-59c9d18ef6cf" class="list-group-item link-dark sort sortDataScience"
+          target="_blank">Practical Keras</a>
+        <a href="https://medium.com/swlh/asking-code-questions-baf949dc0c7c" class="list-group-item link-dark sort sortDev"
+          target="_blank">Asking Code Questions</a>
+        <a href="https://k3no.medium.com/hearing-for-robots-and-ai-3a17a9853c42" class="list-group-item link-dark sort sortAI"
+          target="_blank">Hearing for robots and AI</a>
+        <a href="https://k3no.medium.com/tech-writing-for-medium-368dc24bf901" class="list-group-item link-dark sort sortDev"
+          target="_blank">Tech writing for Medium</a>
+        <a href="https://blog.devgenius.io/developer-life-outside-the-us-and-faang-ab6825417037"
+          class="list-group-item link-dark sort sortDev" target="_blank">Developer life outside the US and FAANG</a>
+        <a href="https://blog.devgenius.io/vue-props-b04621f4a531" class="list-group-item link-dark sort sortFED" target="_blank">VUE
+          Props</a>
+        <a href="https://blog.devgenius.io/everything-wrong-with-the-pre-screen-swe-interview-723737d81b61"
+          class="list-group-item link-dark sort sortDev" target="_blank">Everything wrong with the pre-screen SWE Interview.</a>
+        <a href="https://blog.devgenius.io/become-10x-more-productive-in-data-science-c80242e9d0ae"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Become 10x more productive in Data Science.</a>
+        <a href="https://levelup.gitconnected.com/learning-how-to-learn-how-to-code-73f59cd3eb42"
+          class="list-group-item link-dark sort sortDev" target="_blank">Learning how to learn how to code</a>
+        <a href="https://k3no.medium.com/how-to-query-in-graphql-6ebb3f7085dc" class="list-group-item link-dark sort sortDev"
+          target="_blank">How to Query in GraphQL</a>
+        <a href="https://python.plainenglish.io/front-end-to-full-stack-1b6904c4b962" class="list-group-item link-dark sort sortDev"
+          target="_blank">Front End to Full Stack Part 1.</a>
+        <a href="https://python.plainenglish.io/front-end-to-full-stack-c42b91bfedde" class="list-group-item link-dark sort sortDev"
+          target="_blank">Front End to Full Stack Part 2.</a>
+        <a href="https://python.plainenglish.io/front-end-to-full-stack-b572085d2f57" class="list-group-item link-dark sort sortDev"
+          target="_blank">Front End to Full Stack Part 3.</a>
+        <a href="https://levelup.gitconnected.com/args-kwargs-in-python-8d483f9f253e" class="list-group-item link-dark sort sortPython"
+          target="_blank">*args & **kwargs in Python</a>
+        <a href="https://k3no.medium.com/the-art-of-getting-bored-7e8f070f0aad" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">The Art of Getting Bored.</a>
+        <!-- <a href="https://k3no.medium.com/the-god-of-dogs-c623e6a28ff9" class="list-group-item link-dark"
+          target="_blank">The God of Dogs…</a> -->
+        <a href="https://medium.com/swlh/classes-subclasses-in-python-12b6013d9f3" class="list-group-item link-dark sort sortPython"
+          target="_blank">Classes & Subclasses in Python</a>
+        <a href="https://k3no.medium.com/of-masks-and-spreading-germs-1db24ae041f9" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">Of Masks and Spreading Germs</a>
+        <a href="https://k3no.medium.com/preparing-for-the-next-pandemic-166756be1973" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">Preparing for the next Pandemic</a>
+        <a href="https://python.plainenglish.io/decorators-in-python-2c830015d719" class="list-group-item link-dark sort sortPython"
+          target="_blank">Decorators in Python</a>
+        <a href="https://k3no.medium.com/python-pandas-basics-7837f421d3e4" class="list-group-item link-dark sort sortPython"
+          target="_blank">Python Pandas Basics</a>
+        <a href="https://levelup.gitconnected.com/time-and-space-complexity-725dcba31902"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Time and Space Complexity</a>
+        <a href="https://k3no.medium.com/google-python-challenge-2-a-d6331ce36576" class="list-group-item link-dark sort sortPython"
+          target="_blank">Google Python Challenge #2.a</a>
+        <a href="https://medium.com/swlh/python-gui-with-pyqt-pyside2-5cca38d739fa" class="list-group-item link-dark sort sortPython"
+          target="_blank">Python GUI with PyQT/PySide2</a>
+        <a href="https://levelup.gitconnected.com/stacks-and-queues-in-python-b2e8b4dbd876"
+          class="list-group-item link-dark sort sortPython" target="_blank">Stacks and Queues in Python</a>
+        <a href="https://medium.com/swlh/making-data-trees-in-python-3a3ceb050cfd" class="list-group-item link-dark sort sortPython sortDataScience"
+          target="_blank">Making Data Trees in Python</a>
+        <a href="https://medium.com/swlh/google-python-challenge-1-58c0eb760c92" class="list-group-item link-dark sort sortPython"
+          target="_blank">Google Python Challenge #1</a>
+        <a href="https://k3no.medium.com/print-in-python-389aea412c1f" class="list-group-item link-dark sort sortPython"
+          target="_blank">Print() in Python</a>
+        <a href="https://k3no.medium.com/fizz-buzz-in-python-2edea331d715" class="list-group-item link-dark sort sortPython"
+          target="_blank">Fizz Buzz in Python</a>
+        <a href="https://k3no.medium.com/python-comprehension-885cd3f27f4a" class="list-group-item link-dark sort sortPython"
+          target="_blank">Python Comprehension</a>
+        <a href="https://k3no.medium.com/beginners-guide-to-iteration-in-python-8734ba247afa"
+          class="list-group-item link-dark sort sortPython" target="_blank">Beginners guide to Iteration in python</a>
+        <a href="https://k3no.medium.com/think-small-2b4b3c890c1f" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">Think Small</a>
+        <a href="https://k3no.medium.com/organizing-your-python-code-ca5445843368" class="list-group-item link-dark sort sortPython"
+          target="_blank">Organizing your Python Code</a>
+        <a href="https://k3no.medium.com/threads-in-python-420fccf9bde5" class="list-group-item link-dark sort sortPython"
+          target="_blank">Threads in Python</a>
+        <a href="https://betterprogramming.pub/alternatives-to-using-globals-in-python-a3b2a7d5411b"
+          class="list-group-item link-dark sort sortPython" target="_blank">Alternatives to Using Globals in Python</a>
+        <a href="https://medium.com/swlh/be-more-like-evolution-84274ce4c5af" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">Be more like Evolution !</a>
+        <a href="https://k3no.medium.com/saving-wework-7c867c1c0d28" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">Saving WeWork.</a>
+        <a href="https://medium.com/discourse/stop-mass-shootings-keep-your-guns-46c87b1871b8"
+          class="list-group-item link-dark sort sortOTHER" target="_blank">Stop mass shootings, keep your guns ?</a>
+        <a href="https://medium.com/dataseries/productivity-and-technology-911a62a73dc0"
+          class="list-group-item link-dark sort sortOTHER" target="_blank">Productivity and Technology.</a>
+        <a href="https://medium.com/discourse/technical-analysis-on-trial-494f04337467"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Technical Analysis on Trial</a>
+        <a href="https://k3no.medium.com/early-look-at-defi-on-ethereum-b40541e868aa" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Early look at DeFi on Ethereum</a>
+        <a href="https://k3no.medium.com/predicting-the-future-by-looking-at-the-past-74a512f62497"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Predicting the future by looking at the past.</a>
+        <a href="https://towardsdatascience.com/exploring-cycles-in-data-a1746fb19735" class="list-group-item link-dark sort sortDataScience"
+          target="_blank">Exploring Cycles in data.</a>
+        <a href="https://k3no.medium.com/kivy-menagerie-af6a53e74695" class="list-group-item link-dark sort sortPython"
+          target="_blank">KIVY Menagerie</a>
+        <a href="https://k3no.medium.com/neural-synchronization-in-the-brain-e3c7b83b4309"
+          class="list-group-item link-dark sort sortAI" target="_blank">Neural Synchronization in the brain</a>
+        <a href="https://k3no.medium.com/quick-guide-to-git-github-4f7ec8cbeae0" class="list-group-item link-dark sort sortDev"
+          target="_blank">Quick guide to Git + Github</a>
+        <a href="https://becominghuman.ai/conscious-artifical-intelligence-c-a-i-foundations-7118f0d2ad64"
+          class="list-group-item link-dark sort sortAI" target="_blank">Conscious Artifical Intelligence C.A.I. Foundations.</a>
+        <a href="https://k3no.medium.com/why-did-the-moxyone-ico-failed-a12ca9b5ddf5" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Why did the MoxyOne ICO failed ?</a>
+        <a href="https://k3no.medium.com/understanding-spreads-in-trading-58f76460b381"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Understanding spreads in Trading</a>
+        <a href="https://k3no.medium.com/correlation-in-data-6cf145e89146" class="list-group-item link-dark sort sortDataScience"
+          target="_blank">Correlation in data</a>
+        <a href="https://k3no.medium.com/visualizing-the-number-of-neurons-in-the-brain-53c7a18d569"
+          class="list-group-item link-dark sort sortAI" target="_blank">Visualizing the number of neurons in the brain</a>
+        <a href="https://k3no.medium.com/visualization-for-data-science-in-python-7e862f376813"
+          class="list-group-item link-dark sort sortPython" target="_blank">Visualization for Data Science in Python</a>
+        <a href="https://k3no.medium.com/the-tragedy-of-the-commons-555bd76a109a" class="list-group-item link-dark sort sortOTHER"
+          target="_blank">The Tragedy of the Commons.</a>
+        <a href="https://k3no.medium.com/control-structures-in-ethereum-3f2d4149b84a" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Control Structures in Ethereum</a>
+        <a href="https://medium.com/coinmonks/making-a-time-savings-contract-in-ethereum-b89cacfdfe4e"
+          class="list-group-item link-dark sort sortCrypto" target="_blank">Making a time savings contract in Ethereum</a>
+        <a href="https://k3no.medium.com/making-a-birthday-contract-858fd3f63618" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Making a Birthday Contract.</a>
+        <a href="https://k3no.medium.com/anyone-can-kill-your-contract-723c25bd273f" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Anyone can kill your contract</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-f04cb9bb9431" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 1.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-a263b43d4c54" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 2.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-3346b62d2a0" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 3.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-39848cca0c79" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 4.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-678dbb3faddd" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 5.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-a73ab5aa95ea" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 6.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-283821fd3410" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 7.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-1a7f18c1adc" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 8.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-dce2d5037095" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 9.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-80f639f5c46b" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 10.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-743b8b634e7a" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 11.</a>
+        <a href="https://k3no.medium.com/ethereum-tokens-smart-contracts-bb73cdd88ba5" class="list-group-item link-dark sort sortCrypto"
+          target="_blank">Ethereum, tokens & smart contracts - Part 12.</a>
+        <a href="https://planetachatbot.com/como-llegar-a-her-617c4ca2ce51" class="list-group-item link-dark sort sortAI"
+          target="_blank">Cómo llegar a Her</a>
+        <a href="https://k3no.medium.com/the-bitcoin-market-in-pretty-charts-80a850305ad7"
+          class="list-group-item link-dark sort sortCrypto" target="_blank">The Bitcoin market in pretty charts.</a>
+        <a href="https://becominghuman.ai/getting-to-her-1eeba1c20a02" class="list-group-item link-dark sort sortAI"
+          target="_blank">Getting to Her</a>
+        <a href="https://medium.com/hackernoon/numerai-walkthrough-quantitative-analysis-machine-learning-for-fun-and-profit-3dcdccabd920"
+          class="list-group-item link-dark sort sortDataScience" target="_blank">Numerai walkthrough: Quantitative Analysis & Machine
+          learning for fun and profit.</a>
+        <!-- <a href="https://blog.prototypr.io/marvelous-designer-for-fashion-design-6169eb7cdc3a" class="list-group-item link-dark" target="_blank">Marvelous Designer for fashion design</a> -->
+        <a href="https://becominghuman.ai/making-a-simple-neural-network-classification-2449da88c77e"
+          class="list-group-item link-dark sort sortAI" target="_blank">Making a Simple Neural Network : Classification</a>
+        <a href="https://k3no.medium.com/quick-take-on-invision-for-ui-ux-prototyping-8442e8ca0c50"
+          class="list-group-item link-dark sort sortDev" target="_blank">Quick take on Invision for UI/UX Prototyping</a>
+        <a href="https://k3no.medium.com/quick-take-on-sketch-for-ui-ux-design-90f01f776ca6"
+          class="list-group-item link-dark sort sortDev" target="_blank">Quick take on Sketch for UI/UX Design</a>
+        <a href="https://k3no.medium.com/hire-me-not-34552237988b" class="list-group-item link-dark sort sortDev"
+          target="_blank">Hire me Not</a>
+        <a href="https://k3no.medium.com/juice-hero-e1a72e779f0" class="list-group-item link-dark sort sortOTHER" target="_blank">Juice
+          Hero…</a>
+        <a href="https://becominghuman.ai/making-a-simple-neural-network-2ea1de81ec20" class="list-group-item link-dark sort sortAI"
+          target="_blank">Making a Simple Neural Network</a>
+        <a href="https://k3no.medium.com/memory-and-the-machine-ba380dcdb1c1" class="list-group-item link-dark sort sortAI"
+          target="_blank">Memory and The Machine</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/svgGraphicsSnap" class="list-group-item link-dark sort sortFED"
+          target="_blank">SVG Vector graphics with Snap.svg</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/TypescriptPt1" class="list-group-item link-dark sort sortFED"
+          target="_blank">Getting to know Typescript Part 1.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/TypescriptPt2" class="list-group-item link-dark sort sortFED"
+          target="_blank">Getting to know Typescript Part 2.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/TypescriptPt3" class="list-group-item link-dark sort sortFED"
+          target="_blank">Getting to know Typescript Part 3.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/MaterialDesignLite"
+          class="list-group-item link-dark sort sortFED" target="_blank">Let's check out Material Design Lite</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/everyday-javascript-objects"
+          class="list-group-item link-dark sort sortFED" target="_blank">Everyday Javascript: Objects.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/obeliskJS" class="list-group-item link-dark sort sortFED"
+          target="_blank">Obelisk.js Pixelated Isometric graphics with Javascript.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/firebase-settingup"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with Firebase Part 1. Setting up.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/firebase-realtime-database"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with Firebase Part 2. Real Time
+          Database.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/firebase-user-authentication"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with Firebase Part 3. User
+          authentication.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-oddsends" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #6 : Odds & Ends</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/isomerJS" class="list-group-item link-dark sort sortFED"
+          target="_blank">Isomer.js Isometric graphics with Javascript.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-promises" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #5 : Promises ( were made )</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/integrating-angularjs-chartjs"
+          class="list-group-item link-dark sort sortFED" target="_blank">Integrating Angular ChartJs and Angular Material</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-spread" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #4 : Spread ...</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/threejs" class="list-group-item link-dark sort sortFED"
+          target="_blank">3D with Three.js</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-classes" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #3 : Classes</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/quilljs" class="list-group-item link-dark sort sortFED"
+          target="_blank">A look at Quill.js</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-fat-arrows" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #2 : Fat Arrows</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/chart-libraries-d3js"
+          class="list-group-item link-dark sort sortFED" target="_blank">A look at Javascript Chart libraries,the big one D3.js</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/es6-let-const" class="list-group-item link-dark sort sortFED"
+          target="_blank">ES6 Sampler #1 (let & const).</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/lets-try-Angular-Material"
+          class="list-group-item link-dark sort sortFED" target="_blank">Let's try Angular Material.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/gentle-Sass" class="list-group-item link-dark sort sortFED"
+          target="_blank">A gentle introduction to Sass</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/a-look-at-chartist"
+          class="list-group-item link-dark sort sortFED" target="_blank">A look at Chartist.js with sample code</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/getting-started-with-chartjs"
+          class="list-group-item link-dark sort sortFED" target="_blank">Exploring Javascript Chart Libraries, Getting started with
+          Chart.js.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/introduction-to-emmet"
+          class="list-group-item link-dark sort sortFED" target="_blank">Introduction to Emmet</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/the-jekyll-experience"
+          class="list-group-item link-dark sort sortFED" target="_blank">The Jekyll Experience</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/Getting-Started-With-SVG"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with SVG graphics</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/Getting-Started-With-ReactJs"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting Started with React.js</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/More-ReactJs-Pens" class="list-group-item link-dark sort sortFED"
+          target="_blank">More React.js</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/getting-started-with-react-router"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with React Router</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/getting-started-with-redux"
+          class="list-group-item link-dark sort sortFED" target="_blank">Getting started with Redux</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/getting-started-with-AngularJs"
+          class="list-group-item link-dark sort sortFED" target="_blank">Angular.js by example, Getting started.</a>
+        <a href="https://kenoleon.github.io/Front-End-Web-Dev-UI-UX/more-angularJS-code-samples"
+          class="list-group-item link-dark sort sortFED" target="_blank">More AngularJS introductory code samples.</a>
+
+
+      </ul>
+    </div>
+    <br>
+    <div class="container">
+      <br>
+      <div class="d-flex justify-content-center">
+        <b>--- The End ---</b>
+      </div>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>
