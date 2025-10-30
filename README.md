@@ -10,9 +10,9 @@ Contact / profiles:
 - Bluesky: https://bsky.app/profile/k3no.bsky.social
 
 ## Resume
-- [Plain text resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.pdf)
+- [Plain text resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.txt)
 
-- [PDF resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.txt)
+- [PDF resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.pdf)
 
 
 ## Books
