@@ -1,0 +1,62 @@
+Eugenio N. Leon (Keno)  
+Phone: +52 56 3285 5441 | Email: me@k3no.com  
+Portfolio: www.k3no.com | LinkedIn: linkedin.com/in/kenoleon
+GitHub: github.com/KenoLeon | Twitter/X: @_k3no
+
+SUMMARY  
+A seasoned AI/ML researcher, developer, and systems architect with over a decade of experience in conscious AI, neural networks, and cognitive architectures. Adept at translating abstract theory into practical systems and publications. Background spans software development, technical design, and science communication. Driven to advance research while addressing the ethical and societal implications of AI.  
+
+
+KEY/SELECT PROJECTS AND PUBLICATIONS  
+- Conscious Artificial Intelligence (Book and Article series) : Author of a multi-part series exploring conscious AI foundations, neuroscience,
+  and applications.  
+- Live Neural Network Simulator: Developed a real-time neural network simulator for visualizing neural synchronization and dynamics.  
+- Ethereum/Solidity Smart Contract series and book on Solidity: Authored a Series of articles and a Book on Ethereum smart contracts, covering development and deployment.
+- AI Working Memory Analog: Created a system for AI working memory using video processing and number recognition.  
+- 3D Virtual AI Testbeds: Built 3D environments (Three.js/JavaScript) for AI pathfinding and search.  
+
+SKILLS  
+- AI/ML Research: Deep Learning, Neural Networks, Reinforcement Learning, Model Explainability  
+- AI Concepts: Artificial Consciousness, AGI, Embodied AI, Explainable AI  
+- Software Development: Python, JavaScript, Solidity, Cloud Computing, Databases  
+- Data Science: Data Analysis, Visualization (Matplotlib, Seaborn, Plotly), Pandas, NumPy  
+- Neuroscience: Cognitive Neuroscience, Neural Networks, Systems Neuroscience  
+- Design & UX: UI/UX Design, Prototyping, GUI Development, 3D Modeling
+- Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js  
+- Other: Version Control (Git), DevOps, Technical Writing  
+
+EXPERIENCE  
+Independent AI/ML Researcher & Developer | 2015 - Present
+- Published 70+ technical articles on AI, ML, and consciousness  
+- Prototyped experimental architectures and visualization tools  
+- Conduct research on conscious AI and neural networks.  
+- Design and test AI/ML algorithms and systems.  
+- Author articles and books on AI/ML topics.  
+- Build open-source projects showcasing AI/ML concepts.  
+
+Independent Quantitative Data Scientist | 2017 - Present
+- Developed and implemented quantitative models for market Neutral  strategies.
+- Top 10 competitor at the Numerai Tournament, a data science competition for the Numerai hedge funds.
+
+
+Asurays, Virtual/California - Industrial Designer | Oct 2015 - 2024  
+- Contract industrial designer delivering innovative solutions.  
+
+K3no.com, Virtual/California - Web Developer/Designer | 2001 - Present  
+- Contract web developer managing full-stack projects and MVPs
+
+Startups (CommonStash, PotreroMedia, Bwire) - Founder/Developer/UI/UX | 2000 - 2010  
+- Led web development projects, including UI/UX design and deployment.  
+
+ING Barings, Mexico City, Mexico - Software Developer/Junior Analyst | 1997 - 2000  
+- Developed software tools for economic analysis and trading.  
+
+EDUCATION  
+- ITAM University, Mexico: BA in Economics, 1995  
+- A.M.I.B Mexico: Investment Courses, 1999  
+- Self-taught in Machine Learning,Software development, Neuroscience, and AI Architecture (Ongoing)
+
+LANGUAGES  
+- Spanish (Native)  
+- English (Fluent)  
+- Italian (Conversational)  

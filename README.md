@@ -3,16 +3,16 @@
 AI/Software Researcher & Developer · Writer · Python & Front‑End Developer · UI/UX · Solidity · Quantitative Finance · Data Science · Machine Learning
 
 Contact / profiles:
-- GitHub: https://github.com/KenoLeon
 - LinkedIn: https://www.linkedin.com/in/kenoleon/
 - Medium: https://medium.com/@k3no
 - Twitter/X: https://twitter.com/_k3no
 - Instagram: https://www.instagram.com/instakenogram/
 - Bluesky: https://bsky.app/profile/k3no.bsky.social
 
-Resume:
-- Plain text: https://www.k3no.com/colateral/Eugenio_Leon_AI_Researcher_Resume.txt
-- PDF: https://www.k3no.com/colateral/Eugenio_Leon_AI_Researcher_Resume.pdf
+## Resume
+- [Plain text resume](assets/resume.txt)
+- [PDF resume](assets/resume.pdf)
+
 
 ## Books
 - [Conscious Artificial Intelligence: Part 1. Foundations](https://www.amazon.com/dp/B07JR3KNMX)
