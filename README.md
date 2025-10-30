@@ -10,14 +10,10 @@ Contact / profiles:
 - Bluesky: https://bsky.app/profile/k3no.bsky.social
 
 ## Resume
-- [Plain text resume](https://github.com/KenoLeon/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.txt)
-- [PDF resume](https://github.com/KenoLeon/KenoLeon/blob/251ad93f2298c6476bf1b01060ef8506c41466b7/assets/Eugenio_Leon_AI_Researcher_Resume.pdf)
+- [Plain text resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.pdf)
 
-<a href="https://github.com/KenoLeon/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.pdf" class="image fit">
-  PDF Resume
-</a>
+- [PDF resume](https://kenoleon.github.io/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.txt)
 
-<a href="pdfs/ProjMarr_slides.pdf" class="image fit"><img src="images/marr_pic.
 
 ## Books
 - [Conscious Artificial Intelligence: Part 1. Foundations](https://www.amazon.com/dp/B07JR3KNMX)
