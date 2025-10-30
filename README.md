@@ -13,6 +13,10 @@ Contact / profiles:
 - [Plain text resume](https://github.com/KenoLeon/KenoLeon/assets/Eugenio_Leon_AI_Researcher_Resume.txt)
 - [PDF resume](https://github.com/KenoLeon/KenoLeon/blob/251ad93f2298c6476bf1b01060ef8506c41466b7/assets/Eugenio_Leon_AI_Researcher_Resume.pdf)
 
+<a href="assets/Eugenio_Leon_AI_Researcher_Resume.pdf" class="image fit">
+  PDF Resume
+</a>
+
 
 ## Books
 - [Conscious Artificial Intelligence: Part 1. Foundations](https://www.amazon.com/dp/B07JR3KNMX)
