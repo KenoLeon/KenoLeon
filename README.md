@@ -12,7 +12,10 @@
 ---
 
 ## Currently building
-
+- **[context-pad](https://github.com/KenoLeon/context-pad)** — 
+  lightweight markdown reader and scratchpad for working 
+  with context files and LLM prompts · no install, 
+  runs in any browser
 - **[Context-Kit](https://github.com/KenoLeon/Context-Kit)** — minimal file-based context organizer for humans and AI agents
 - **[BubbleUI](https://github.com/KenoLeon/BubbleUI)** — local-first LLM chat UI with context injection and model switching
 - **[Quant Matters](https://www.youtube.com/@quantmatters)** — quantitative finance explained from first principles · Season 2 in production
