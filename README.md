@@ -62,7 +62,7 @@ Selected high-signal pieces:
 
 ## Stack
 
-`Python` `JavaScript` `Solidity` `TensorFlow/Keras` `Three.js` `PyAudio/FFT` `Web3.js` `Hardhat` `OpenCV` `Blender`
+`Python` `JavaScript` `node` `Solidity` `TensorFlow/Keras` `Three.js` `PyAudio/FFT` `Web3.js` `Hardhat` `OpenCV`
 
 ---
 
